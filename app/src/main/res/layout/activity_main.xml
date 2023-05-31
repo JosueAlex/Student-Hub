@@ -7,45 +7,55 @@
         android:layout_height="match_parent"
         android:background="@color/azul"
         tools:context=".MainActivity">
+
     <ImageView
-            android:layout_width="206dp"
-            android:layout_height="223dp" app:srcCompat="@drawable/student_hub_icon" android:id="@+id/imageView"
+            android:layout_width="225dp"
+            android:layout_height="225dp" app:srcCompat="@drawable/student_hub_icon" android:id="@+id/imageView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintVertical_bias="0.078"/>
-
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.137"/>
     <androidx.constraintlayout.widget.ConstraintLayout
-            android:background="@drawable/azul_bg"
+            android:background="@drawable/menu_bg"
             android:layout_width="409dp"
             android:layout_height="349dp"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView" android:layout_marginTop="152dp"
-            app:layout_constraintHorizontal_bias="0.0">
+            app:layout_constraintTop_toBottomOf="@+id/imageView" android:layout_marginTop="116dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="1.0">
 
         <TextView
                 android:text="Bienvenido"
                 android:fontFamily="sans-serif-black"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/textView2" tools:layout_editor_absoluteY="32dp"
-                tools:layout_editor_absoluteX="170dp"/>
+                android:layout_height="wrap_content" android:id="@+id/textView2"
+                android:textSize="34sp"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497" app:layout_constraintVertical_bias="0.052"/>
         <TextView
                 android:text="Si deseas unirte a la comunidad puedes registrarte o iniciar sesión  si ya posees una cuenta"
                 android:layout_width="394dp"
-                android:layout_height="86dp" android:id="@+id/textView3" tools:layout_editor_absoluteY="75dp"
-                tools:layout_editor_absoluteX="7dp"/>
-
+                android:layout_height="86dp" android:id="@+id/textView3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:fontFamily="sans-serif-black" app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.466"
+                app:layout_constraintVertical_bias="0.296" android:textSize="20sp"/>
         <androidx.appcompat.widget.AppCompatButton
                 android:text="Iniciar Sesión"
-                android:background="@drawable/btn_iniciar_sesion"
+                android:background="@drawable/btn_amarillo"
                 android:layout_width="285dp"
-                android:layout_height="52dp" android:id="@+id/button" tools:layout_editor_absoluteY="183dp"
-                tools:layout_editor_absoluteX="62dp"/>
+                android:layout_height="55dp" android:id="@+id/button"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" app:layout_constraintVertical_bias="0.632"/>
         <androidx.appcompat.widget.AppCompatButton
                 android:text="Registrarse"
-                android:background="@drawable/btn_registarse"
+                android:background="@drawable/btn_azul"
                 android:layout_width="285dp"
-                android:layout_height="52dp" android:id="@+id/button2" tools:layout_editor_absoluteY="249dp"
-                tools:layout_editor_absoluteX="62dp"/>
+                android:layout_height="55dp" android:id="@+id/button2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" app:layout_constraintVertical_bias="0.884"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
