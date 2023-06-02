@@ -100,39 +100,61 @@
         android:layout_height="wrap_content"
         android:text="Fecha de nacimiento"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="174dp"
-        tools:layout_editor_absoluteY="593dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.776" />
 
     <EditText
         android:id="@+id/editTextText4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="55dp"
+        android:layout_height="37dp"
+        android:background="@drawable/text_inputbox"
         android:ems="10"
         android:inputType="text"
+        android:padding="8dp"
         android:text="D"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="639dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.892" />
 
     <EditText
         android:id="@+id/editTextText5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="79dp"
+        android:layout_height="39dp"
+        android:background="@drawable/text_inputbox"
         android:ems="10"
         android:inputType="text"
+        android:padding="8dp"
         android:text="MM"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="246dp"
-        tools:layout_editor_absoluteY="644dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.893" />
 
     <EditText
         android:id="@+id/editTextText6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="81dp"
+        android:layout_height="41dp"
+        android:background="@drawable/text_inputbox"
         android:ems="10"
         android:inputType="text"
+        android:padding="8dp"
         android:text="YYYY"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="729dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896" />
 </androidx.constraintlayout.widget.ConstraintLayout>
