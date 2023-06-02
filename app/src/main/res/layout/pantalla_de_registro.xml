@@ -93,4 +93,46 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.694"
         tools:text="Confirmar Contraseña" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha de nacimiento"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="593dp" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="D"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="639dp" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="MM"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="644dp" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="YYYY"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="729dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
